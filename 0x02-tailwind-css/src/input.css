@@ -2,3 +2,8 @@
 @import "tailwind base";
 @import "tailwind components";
 @import "tailwind utilities";
+
+@media (max-width: 768px)
+{
+main { grid-template-columns: 1fr; }
+}
